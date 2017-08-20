@@ -1,0 +1,11 @@
+ng new Authapp
+cd Authapp
+npm install angularfire2 firebase --save
+//adding components
+ng generate component login
+ng generate component email
+ng generate component signup
+ng generate component members
+//create files in ide
+auth.service.ts
+app.routes.ts
